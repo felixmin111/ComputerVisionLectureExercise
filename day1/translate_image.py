@@ -22,7 +22,7 @@ def translate_image(image, x, y):
  
 
 # Load image
-img = cv2.imread('sample.jpeg')
+img = cv2.imread('day1/sample.jpeg')
 img = cv2.cvtColor(img, cv2.COLOR_BGR2RGB)  # Convert BGR to RGB for matplotlib
 
  
